@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url("/img/hero-background.jpg") center / cover;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.nav-left{
+    display: flex;
+    
+}
+
+.logo {
+    height: 35px;
+}
+
+.idioma {
+    flex: 1;
+    background-color: #363636;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.btn {
+    flex: 1;
+    background-color: red;
+    color:white;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: bold;
+}

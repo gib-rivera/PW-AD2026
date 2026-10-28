@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #193b70;
+}
+
+.contenedor {
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.panel-login, .panel-insititucional {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-insititucional {
+    background: url("/img/background.jpg")
+    center / cover no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.contenido-institucional img {
+    width: 340px;
+    margin-bottom: 50px;
+}
+
+.panel-login {
+    padding: 30px;
+    background-color: #f7f8fa;
+}
+
+.tarjeta {
+    width: 100%;
+    max-width: 448px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+.logo {
+    display: block;
+    width: 125px;
+    height: auto;
+    margin: 0 auto 35px;
+}
+
+.bienvenida {
+    margin-bottom: 32px;
+}
+
+.bienvenida h2 {
+    margin-bottom: 10px;
+}
+
+.bienvenida p {
+    color: #69758a;
+}
+
+.campo {
+    margin-bottom: 24px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+    border: 2px solid #e2e5eb;
+    border-radius: 13px;
+    background-color: #f9fafb;
+}
+
+.input-contenedor svg {
+    width: 20px;
+    height: 20px;
+    color: #69758a;
+}
+
+.input-contenedor input {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    background-color: transparent;
+    font: inherit;
+    outline: none;
+}
